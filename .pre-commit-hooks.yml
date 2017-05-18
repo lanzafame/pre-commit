@@ -1,0 +1,6 @@
+- id: gocyclo
+  name: gocyclo
+  description: Run gocyclo on your go code, currently the warning is at 10
+  entry: pre-commit-hooks/run-go-cyclo.sh
+  language: script
+  files: \.go$
